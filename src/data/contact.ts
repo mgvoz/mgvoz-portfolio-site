@@ -1,3 +1,5 @@
+import resume from "../assets/Marissa_Gvozdenovich_Resume.pdf";
+
 var contact = [
   {
     type: "location",
@@ -38,7 +40,7 @@ var contact = [
     type: "resume",
     icon: "bi-download",
     content: "Resumé",
-    link: "/src/assets/Marissa_Gvozdenovich_Resume.pdf",
+    link: resume,
     download: "Marissa_Gvozdenovich_Resume.pdf",
   },
 ];
