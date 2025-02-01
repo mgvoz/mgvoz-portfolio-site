@@ -9,10 +9,11 @@ function Footer() {
       </div>
       <div className="footer-details">
         <small>
-          Built with React, Bootstrap, and Typescript.{" "}
+          Built with React, Bootstrap, and Typescript, and deployed on Github
+          Pages.{" "}
           <a
             className="code-link"
-            href="https://codesandbox.io/p/devbox/mgvoz-portfolio-site-6rh9hc"
+            href="https://github.com/mgvoz/mgvoz-portfolio-site"
           >
             See the code here.
           </a>
