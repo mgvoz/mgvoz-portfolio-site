@@ -2,8 +2,8 @@ import "./About.css";
 import skills from "../../data/skills";
 import experiences from "../../data/experiences";
 import education from "../../data/education";
-import Skills from "../Skills/Skills";
-import certifications from "../../data/certifications";
+//import Skills from "../Skills/Skills";
+//import certifications from "../../data/certifications";
 
 function About() {
   let educationMap = education.map((ed, index) => {

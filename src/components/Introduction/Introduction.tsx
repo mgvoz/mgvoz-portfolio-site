@@ -1,20 +1,20 @@
 import "./Introduction.css";
-import taglines from "../../data/taglines";
+//import taglines from "../../data/taglines";
 
-function Introduction() {
-  let taglineMap = taglines.map((tagline, index) => {
-    return (
-      <div
-        className={
-          "tagline fs-4 carousel-item heading" + (index == 0 ? " active" : "")
-        }
-        data-bs-interval="4000"
-        key={tagline + "_" + index.toString()}
-      >
-        <span className="d-block w-100 heading">{tagline}</span>
-      </div>
-    );
-  });
+// function Introduction() {
+//   let taglineMap = taglines.map((tagline, index) => {
+//     return (
+//       <div
+//         className={
+//           "tagline fs-4 carousel-item heading" + (index == 0 ? " active" : "")
+//         }
+//         data-bs-interval="4000"
+//         key={tagline + "_" + index.toString()}
+//       >
+//         <span className="d-block w-100 heading">{tagline}</span>
+//       </div>
+//     );
+//   });
 
   return (
     <>
