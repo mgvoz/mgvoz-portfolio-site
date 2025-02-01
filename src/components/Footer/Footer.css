@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30vh;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.code-link {
+  color: #fde4c8;
+}

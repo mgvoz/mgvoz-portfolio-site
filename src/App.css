@@ -1,0 +1,57 @@
+.app-container {
+  animation: 2s fadeIn;
+  height: 100vh;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.left {
+  width: 40%;
+  position: fixed;
+  background-color: black;
+  z-index: 1000;
+  height: 100vh;
+}
+
+.right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  float: right;
+  min-width: 300px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .left {
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    position: static;
+  }
+
+  .right {
+    width: 80vw;
+    float: none;
+    align-items: center;
+    padding: 5%;
+  }
+}

@@ -1,0 +1,67 @@
+.about-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30vh;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.about-section {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  height: fit-content;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.about-content {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.skills {
+  gap: 0;
+}
+
+.college,
+.cert,
+.title {
+  font-weight: 700;
+}
+
+.degree,
+.company {
+  font-style: italic;
+}
+
+.skill {
+  padding: 10px;
+}
+
+.skill-percent {
+  float: right;
+}
+
+.progress {
+  width: 100;
+}
+
+.progress-bar {
+  background-color: #fde4c8;
+}
+
+.experience,
+.education,
+.skills,
+.certs {
+  border-left: solid 1px white;
+  padding-left: 25px;
+}
+
+@media (max-width: 775px) {
+}

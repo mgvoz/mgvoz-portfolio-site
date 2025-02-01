@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Pontano Sans", serif;
+  margin-top: 0 !important;
+  padding: 0 5% 5% 5%;
+}
+
+.heading {
+  font-size: 32px;
+  color: #fde4c8;
+}
+
+@media (max-width: 768px) {
+  .heading: {
+    font-size: 18px;
+  }
+}

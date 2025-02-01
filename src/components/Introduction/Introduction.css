@@ -1,0 +1,38 @@
+.introduction-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 35px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 200;
+  border-left: 1px solid white;
+  padding-left: 20px;
+}
+
+.title-container {
+  font-size: 32px;
+  display: flex;
+  width: 100%;
+}
+
+.carousel {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.i-am {
+  min-width: 105px;
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .introduction-container {
+    margin-bottom: 40%;
+  }
+}
