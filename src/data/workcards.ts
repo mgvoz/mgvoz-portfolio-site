@@ -1,5 +1,5 @@
 import constructionImage from "../assets/construction.jpg";
-import personalFinanceAppImage from "../assets/personal-finance-image.png";
+//import personalFinanceAppImage from "../assets/personal-finance-image.png";
 
 var workCards = [
   // {
