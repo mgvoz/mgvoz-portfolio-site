@@ -1,1 +1,1 @@
-Base portfolio site - built with React, Bootstrap, and Typescript, and deployed on Github Pages.
+Base portfolio site - built with React, Bootstrap, and Typescript in CodeSandbox, and deployed on Github Pages.
