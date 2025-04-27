@@ -1,7 +1,9 @@
+import Certification from "../classes/Certification";
+
 var certifications = [
-  {
-    name: "Microsoft Technology Associates: Database Fundamentals",
-  },
+  new Certification(
+    "Microsoft Technology Associates: Database Fundamentals"
+  ),
 ];
 
 export default certifications;

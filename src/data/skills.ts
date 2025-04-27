@@ -1,76 +1,24 @@
+import Skill from "../classes/Skill";
+
 var skills = [
-  {
-    text: "HTML",
-    value: 90,
-  },
-  {
-    text: "CSS",
-    value: 70,
-  },
-  {
-    text: "JavaScript",
-    value: 90,
-  },
-  {
-    text: "TypeScript",
-    value: 90,
-  },
-  {
-    text: "C#",
-    value: 70,
-  },
-  {
-    text: ".NET",
-    value: 85,
-  },
-  {
-    text: "SQL",
-    value: 85,
-  },
-  {
-    text: "Angular",
-    value: 70,
-  },
-  {
-    text: "React",
-    value: 65,
-  },
-  {
-    text: "jQuery",
-    value: 90,
-  },
-  {
-    text: "Figma",
-    value: 60,
-  },
-  {
-    text: "Git",
-    value: 80,
-  },
-  {
-    text: "Azure",
-    value: 60,
-  },
-  {
-    text: "SQL",
-    value: 80,
-  },
-  {
-    text: "Project Management",
-    value: 85,
-  },
-  {
-    text: "Communication",
-    value: 100,
-  },
-  {
-    text: "Collaboration",
-    value: 100,
-  },
-  {
-    text: "Research",
-    value: 85,
-  },
+  new Skill("HTML", 90),
+  new Skill("CSS", 70),
+  new Skill("JavaScript", 90),
+  new Skill("TypeScript", 90),
+  new Skill("C#", 70),
+  new Skill(".NET", 85),
+  new Skill("SQL", 85),
+  new Skill("Angular", 70),
+  new Skill("React", 65),
+  new Skill("jQuery", 90),
+  new Skill("Figma", 60),
+  new Skill("Git", 80),
+  new Skill("Azure", 60),
+  new Skill("SQL", 80),
+  new Skill("Project Management", 85),
+  new Skill("Communication", 100),
+  new Skill("Collaboration", 100),
+  new Skill("Research", 85),
 ];
 
 export default skills;

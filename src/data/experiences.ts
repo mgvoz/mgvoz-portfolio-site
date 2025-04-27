@@ -1,9 +1,11 @@
+import Experience from "../classes/Experience";
+
 var experiences = [
-  {
-    title: "UI/UX Software Developer",
-    company: "Hudson Headwaters 340B",
-    dates: "2021-Present",
-    description: [
+  new Experience(
+    "UI/UX Software Developer",
+    "Hudson Headwaters 340B",
+    "2021-Present",
+    [
       "Function as principal front-end developer on technology team; optimize and write reusable front end code across 4 proprietary applications",
       "Lead projects and initiatives for both client-facing and internal applications and serve as head of the cross-departmental committee that makes decisions on new tools and features",
       "Perform code reviews and work with peers to solve technical problems and improve existing code",
@@ -17,22 +19,17 @@ var experiences = [
       "Contribute to, and follow, procedure surrounding version control, implementation, and CI/CD",
       "Deliver training sessions to non-technical departments in the organization",
       "Meet with clients to brainstorm new features and gather feedback on existing features",
-    ],
-  },
-  {
-    title: "Webmaster",
-    company: "Adirondack League Club",
-    dates: "2020-2021",
-    description: [
-      "Maintained and organized all aspects of the Club’s website and SMS notification services",
-      "Supported the membership database and Google Analytics account",
-      "Used user analytics data to drive improvements that increased traffic in specific areas",
-      "Solved technical issues and found solutions within the web application",
-      "Collaborated with Club membership and management to obtain and update content of website and Club communications",
-      "Wrote code for custom user interface components",
-      "Ensured functionality of systems as a whole to meet the individual and unique technical needs of the Club",
-    ],
-  },
+    ]
+  ),
+  new Experience("Webmaster", "Adirondack League Club", "2020-2021", [
+    "Maintained and organized all aspects of the Club’s website and SMS notification services",
+    "Supported the membership database and Google Analytics account",
+    "Used user analytics data to drive improvements that increased traffic in specific areas",
+    "Solved technical issues and found solutions within the web application",
+    "Collaborated with Club membership and management to obtain and update content of website and Club communications",
+    "Wrote code for custom user interface components",
+    "Ensured functionality of systems as a whole to meet the individual and unique technical needs of the Club",
+  ]),
 ];
 
 export default experiences;

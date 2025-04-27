@@ -1,20 +1,6 @@
 import "./Introduction.css";
-//import taglines from "../../data/taglines";
 
 function Introduction() {
-  //   let taglineMap = taglines.map((tagline, index) => {
-  //     return (
-  //       <div
-  //         className={
-  //           "tagline fs-4 carousel-item heading" + (index == 0 ? " active" : "")
-  //         }
-  //         data-bs-interval="4000"
-  //         key={tagline + "_" + index.toString()}
-  //       >
-  //         <span className="d-block w-100 heading">{tagline}</span>
-  //       </div>
-  //     );
-  //   });
 
   return (
     <>
@@ -23,10 +9,6 @@ function Introduction() {
           <div className="i-am heading">
             Hi! I am a UI/UX Software Developer.
           </div>
-          {/* <div className="carousel slide" data-bs-ride="carousel">
-            <div className="i-am heading">Hi! I am </div>
-            <div className="carousel-inner heading">{taglineMap}</div>
-          </div> */}
         </div>
         <div className="description">
           After 7 years as a technology-forward educator, I wanted to learn more

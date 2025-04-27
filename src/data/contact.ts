@@ -1,48 +1,37 @@
+import Contact from "../classes/Contact";
 import resume from "../assets/Marissa_Gvozdenovich_Resume.pdf";
 
 var contact = [
-  {
-    type: "location",
-    icon: "bi-geo-alt",
-    content: "Philadelphia, PA",
-    link: "",
-    download: "",
-  },
-  {
-    type: "phone",
-    icon: "bi-phone",
-    content: "(518) 929-4790",
-    link: "",
-    download: "",
-  },
-  {
-    type: "email",
-    icon: "bi-envelope-check",
-    content: "marissagvozdenovich@gmail.com",
-    link: "mailto:marissagvozdenovich@gmail.com",
-    download: "",
-  },
-  {
-    type: "linkedin",
-    icon: "bi-linkedin",
-    content: "linkedin.com/in/mgvozdenovich",
-    link: "https://www.linkedin.com/in/mgvozdenovich/",
-    download: "",
-  },
-  /*     {
-        type: "blog",
-        icon: "bi-pen",
-        content: "Visit my blog",
-        link: "<blog link here>",
-        download: ""
-    }, */
-  {
-    type: "resume",
-    icon: "bi-download",
-    content: "Resumé",
-    link: resume,
-    download: "Marissa_Gvozdenovich_Resume.pdf",
-  },
+  new Contact("location", "bi-geo-alt", "Philadelphia, PA", "", ""),
+  new Contact("phone", "bi-phone", "(518) 929-4790", "", ""),
+  new Contact(
+    "email",
+    "bi-envelope-check",
+    "marissagvozdenovich@gmail.com",
+    "mailto:marissagvozdenovich@gmail.com",
+    ""
+  ),
+  new Contact(
+    "linkedin",
+    "bi-linkedin",
+    "linkedin.com/in/mgvozdenovich",
+    "https://www.linkedin.com/in/mgvozdenovich/",
+    ""
+  ),
+  /*  new Contact (
+        "blog",
+        "bi-pen",
+        "Visit my blog",
+        "<blog link here>",
+        ""
+  ), */
+  new Contact(
+    "resume",
+    "bi-download",
+    "Resumé",
+    resume,
+    "Marissa_Gvozdenovich_Resume.pdf"
+  ),
 ];
 
 export default contact;
