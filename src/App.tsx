@@ -2,7 +2,7 @@ import "./App.css";
 import Navigation from "../src/components/Navigation/Navigation.tsx";
 import About from "./components/About/About.tsx";
 import Introduction from "./components/Introduction/Introduction.tsx";
-import Work from "./components/Work/Work.tsx";
+import Projects from "./components/Projects/Projects.tsx";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop.tsx";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <div className="right">
           <Introduction></Introduction>
           <About></About>
-          <Work></Work>
+          <Projects></Projects>
           <ScrollToTop></ScrollToTop>
         </div>
       </div>
